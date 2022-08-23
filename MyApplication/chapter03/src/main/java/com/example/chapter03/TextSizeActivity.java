@@ -11,7 +11,7 @@ public class TextSizeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text_size);
-        TextView tv_hello = findViewById(R.id.tv_hello);
-        tv_hello.setTextSize(30);
+        TextView tv_px = findViewById(R.id.tv_px);
+        tv_px.setTextSize(30);//sp(随手机系统字体大小变化)
     }
 }
